@@ -1,0 +1,72 @@
+$date
+	Thu Apr  9 22:09:14 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_full_adder $end
+$var wire 1 ! D_in_Sout $end
+$var wire 1 " D_in_Cout $end
+$var reg 1 # D_in_Cin $end
+$var reg 1 $ D_in_D1 $end
+$var reg 1 % D_in_D2 $end
+$scope module test $end
+$var wire 1 # Cin $end
+$var wire 1 " Cout $end
+$var wire 1 $ D1 $end
+$var wire 1 % D2 $end
+$var wire 1 ! Sum_out $end
+$var wire 1 & a1 $end
+$var wire 1 ' a2 $end
+$var wire 1 ( a3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1!
+1#
+#20000
+1&
+0#
+1%
+#30000
+1"
+1(
+0!
+1#
+#40000
+0"
+0(
+1!
+0#
+0%
+1$
+#50000
+1"
+1(
+0!
+1#
+#60000
+0(
+0&
+1'
+0#
+1%
+#70000
+1!
+1#
+#80000
